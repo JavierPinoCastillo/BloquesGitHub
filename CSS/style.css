@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background-color: rgb(205, 232, 255);
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imagen{
+    height: 200px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: center;
+    color: grey;
+}
+
+.fila{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    margin-bottom: 15px;
+}
+
+.medio{
+    justify-content: space-around;
+    background-color: burlywood;
+}
+
+.final{
+    background-color: darkolivegreen;
+}
